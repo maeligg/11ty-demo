@@ -4,4 +4,4 @@ layout: anypage.njk
 title: Pancakes
 ---
 
-# {{ title }}
+![pancakes](/img/pancakes.jpg)

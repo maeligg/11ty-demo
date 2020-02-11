@@ -8,8 +8,14 @@ title: My site
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
+    <style>
+      img {
+        height: 200px;
+      }
+    </style>
   </head>
   <body>
+    <h1>{{ title }}</h1>
     {{ content | safe }}
 
     Back to the <a href="/">home page</a>

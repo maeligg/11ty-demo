@@ -4,4 +4,4 @@ layout: anypage.njk
 title: Roast chicken
 ---
 
-# {{ title }}
+![roast-chicken](/img/roast-chicken.jpg)

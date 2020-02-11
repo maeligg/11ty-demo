@@ -4,4 +4,4 @@ layout: anypage.njk
 title: Spanish Paella
 ---
 
-# {{ title }}
+![paella](/img/paella.jpg)
