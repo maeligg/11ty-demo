@@ -1,0 +1,14 @@
+---
+layout: anypage.njk
+title: My favourite recipes
+---
+
+<h1>{{ title }}</h1>
+
+<ul>
+    {%- for recipe in collections.recipes -%}
+        <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></li>
+    {%- endfor -%}
+</ul>
+
+Back to the <a href="/">home page</a>
